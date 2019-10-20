@@ -6,5 +6,10 @@
     "python.linting.flake8Enabled": true,
     "python.linting.flake8Args": [
         "--max-line-length=128"
-    ]
+    ],
+    "files.exclude": {
+        ".idea": true,
+        ".vscode": true,
+        "**/__pycache__": true
+    }
 }
