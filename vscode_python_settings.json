@@ -1,0 +1,10 @@
+{
+    "diffEditor.ignoreTrimWhitespace": true,
+    "python.analysis.memory.keepLibraryLocalVariables": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": [
+        "--max-line-length=128"
+    ]
+}
