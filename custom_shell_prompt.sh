@@ -19,4 +19,4 @@ function RANDOM_EMOJI() {
     echo $SELECTED_EMOJI;
 }
 
-export PS1='$(RANDOM_EMOJI) \u@\h - \e[0;36m\W\e[m$(__git_ps1) \$ '
+export PS1='$(RANDOM_EMOJI) \u@\h - \[\e[0;36m\]\W\[\e[0m\]$(__git_ps1) \$ '
